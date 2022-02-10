@@ -1,0 +1,829 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h1,h2,h3,h4,h5,p{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    
+background: #f4f9f4;
+    
+min-height: 100vh;
+    
+z-index: 0;
+}
+.navbar-collapse {    
+    background: #e2ede8;
+}
+.navbar-light .navbar-brand {
+    margin: 0px;
+}
+.navbar {
+    padding: 0px !important;
+}
+.img_one{
+
+display: flex;
+
+justify-content: center;
+
+align-items: center;
+
+margin-top: 20%;
+}
+.img_one img{
+
+width: 50%;
+
+text-align: center;
+
+z-index: 1;
+}
+.shape{
+    
+position: absolute;
+    
+z-index: 0;
+}
+.shape img{
+
+height: 30%;
+
+width: 97%;
+
+z-index: -1;
+}
+.first_content{
+
+}
+.first_content h1{
+
+color: #6c9894;
+
+font-size: 70px;
+
+font-family: 'Baloo Bhai 2', cursive;
+
+font-weight: 600;
+}
+.first_content p{
+
+font-family: 'Montserrat', sans-serif;
+
+font-weight: 400;
+
+color: #6c9894;
+
+padding: 0px 50px;
+}
+.first_content button{    
+    background: #6c9894;    
+    color: #fff;    
+    text-transform: uppercase;    
+    border: none;    
+    padding: 5px 25px;    
+    border-radius: 10px;    
+    font-family: 'Lato', sans-serif;    
+    margin-top: 20px;    
+    margin-bottom: 25px;
+    height: 40px;
+}
+.first_content button:hover{
+    transition: .4s all ease-in-out;
+    box-shadow: -1px 1px 10px 3px #90d8c6;
+    border: 2px solid #fff;
+    height: 40px;
+}
+/* navbar  */
+.navbar-light .navbar-nav .nav-link {
+    color: #494f4e !important;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-left: 50px;
+}
+.navbar-nav .nav-link:hover {
+    color: rgba(0,0,0,.7);
+    background: #c7d9d5;
+}
+
+
+/* choose class part start here  */
+
+.classes{
+
+background: #6c9894;
+
+position: relative;
+
+z-index: 1;
+}
+.big_shapeOne{
+
+position: absolute;
+
+right: 0;
+
+bottom: 28%;
+
+transform: translate(0%, -28%);
+
+z-index: -1;
+
+height: 90%;
+
+width: 24%;
+}
+.big_shapeOne img{
+}
+.class_title{
+
+}
+.class_title h1{
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-weight: 600;
+    color: #fff;
+}
+.class_title p{
+    color: #fff;
+    text-align: center;
+}
+.img_part {
+
+position: relative;
+
+text-align: center;
+}
+.img_part img{
+
+}
+.class_content h1{
+font-size: 30px;
+margin-top: 45px;
+text-align: center;
+color: #fff;
+font-family: 'Baloo Bhai 2', cursive;
+font-weight: 600;
+}
+.class_content p{
+    color: #fff;
+    margin-top: 12px;
+    padding: 0px 106px;
+}
+.image_shape{
+    
+
+}
+.image_shape img{
+    
+
+}
+.image_shape {
+    
+position: absolute;
+    
+left: 40%;
+    
+top: 42%;
+    
+transform: translate(-40%, -42%);
+}
+/* choose class part end here  */
+
+/* status part start here  */
+.status{
+
+background-image: url(../images/bg1.png);
+
+background-attachment: fixed;
+
+background-position: center;
+
+background-repeat: no-repeat;
+
+background-size: cover;
+
+position: relative;
+
+z-index: 0;
+}
+.shape_angle{
+
+z-index: -1;
+
+position: absolute;
+
+height: 60%;
+}
+.shape_angle img{width: 60%;z-index: -1;}
+.all_title{
+
+text-align: center;
+}
+.all_title h1{
+
+text-transform: uppercase;
+
+color: #6c9894;
+
+font-family: 'Baloo Bhai 2', cursive;
+
+font-weight: 700;
+
+font-size: 45px;
+}
+ .all_title p{
+
+font-family: 'Montserrat', sans-serif;
+
+font-size: 16px;
+
+color: #6c9894;
+
+font-weight: 400;
+
+padding: 0px 100px;
+}
+
+ .status_content{
+
+text-align: center;
+
+border: 2px solid #6c9894;
+
+height: 300px;
+
+width: 300px;
+
+border-radius: 50%;
+}
+  .status_content h1{
+
+margin-bottom: 20px;
+
+color: #6c9894;
+
+font-family: 'Baloo Bhai 2', cursive;
+
+font-weight: 700;
+
+margin: 0px;
+
+padding-top: 48px;
+}
+  .status_content p{
+      
+padding: 0px 85px;
+      
+color: #6c9894;
+      
+font-family: 'Montserrat', sans-serif;
+      
+font-weight: 400;
+  }
+/* status part end here  */
+
+/* instructor part start  */
+.col-md-6 {
+    padding: 0px !important;
+}
+.instructor{
+
+}
+.ins_all_content{
+
+background: #6c9894;
+
+display: flex;
+
+justify-content: center;
+
+align-items: center;
+}
+.ins_content {
+
+padding: 30px;
+}
+.ins_content h1{
+
+font-size: 40px;
+
+text-transform: uppercase;
+
+font-family: 'Baloo Bhai 2', cursive;
+
+font-weight: 700;
+
+color: #fff;
+
+margin: 0px;
+
+margin-bottom: 30px;
+}
+.ins_content p{color: #fff;font-family: 'Montserrat', sans-serif;font-weight: 400;}
+.ins_content button{
+
+font-family: 'Baloo Bhai 2', cursive;
+
+font-weight: 600;
+
+text-transform: uppercase;
+
+color: #6c9894;
+
+background: #fff;
+
+border: transparent;
+
+padding: 5px 15px;
+
+font-size: 20px;
+
+border-radius: 8px;
+
+margin-top: 30px;
+}
+.ins_content button:hover{
+    transition: .4s all ease-in-out;
+    background: #343434;
+    color: #feed0d;
+    box-shadow: 2px -1px 9px 6px #feed0d;
+}
+.instructor img{
+
+}
+/* instructors part end  */
+
+/* experience section start here  */
+.experience{
+
+position: relative;
+}
+.experience_img{
+
+}
+.experience_img img{
+
+}
+.experience_content {
+
+padding: 10px;
+}
+.experience_content h1{
+
+font-family: 'Baloo Bhai 2', cursive;
+
+font-size: 50px;
+
+color: #6c9894;
+
+font-weight: 700;
+
+margin: 0px;
+}
+.experience_content  p{
+
+color: #6c9894;
+
+font-family: 'Montserrat', sans-serif;
+
+font-weight: 500;
+
+margin: 0px;
+
+margin-bottom: 30px;
+
+padding-right: 159px;
+
+margin-top: 30px;
+}
+.experience_content button{
+    border: 1px solid transparent;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-weight: 600;
+    color: #fff;
+    border: none;
+    background: #6c9894;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    height: 40px;
+    border-radius: 12px;
+    transition: .4s all ease-in-out;
+}
+.shape_side{
+
+position: absolute;
+
+right: 0px;
+
+top: 0px;
+
+width: 24%;
+
+z-index: -1;
+}
+.shape_side img{
+}
+.height_flex{
+
+display: flex;
+
+align-items: center;
+}
+.experience_content button:hover{
+    border: 1px solid #6c9894;
+    background-color: #fff;
+    color: #6c9894;
+}
+/* experience section end here  */
+
+/* pricing section start here  */
+.pricing{
+
+background: #6c9894;
+}
+.pricing_title{
+
+text-align: center;
+}
+.pricing_title h1{
+
+text-transform: uppercase;
+
+font-family: 'Baloo Bhai 2', cursive;
+
+font-weight: 600;
+
+color: #fff;
+}
+.pricing_title p{
+
+padding: 0px 90px;
+
+font-family: 'Montserrat', sans-serif;
+
+font-weight: 400;
+
+color: #fff;
+}
+.pice_content {
+
+text-align: center;
+
+background: #fff;
+
+border-radius: 5px;
+
+padding: 36px;
+
+height: 100%;
+}
+.pice_content h1{
+
+font-family: 'Baloo Bhai 2', cursive;
+
+font-weight: 600;
+
+color: #6c9894;
+}
+.pice_content i{
+
+color: #6c9894;
+
+font-size: 100px;
+
+margin-top: 10px;
+
+margin-bottom: 22px;
+}
+.pice_content p{
+
+font-family: 'Montserrat', sans-serif;
+
+font-weight: 400;
+
+margin-bottom: 25px;
+}
+.pice_content button{
+    
+font-family: 'Baloo Bhai 2', cursive;
+    
+font-weight: 600;
+    
+color: #fff;
+    
+background: #6c9894;
+    
+width: 100%;
+    
+border: none;
+    
+font-size: 18px;
+    
+text-transform: uppercase;
+    
+padding: 6px 0px;
+    
+border-radius: 4px;
+    
+height: 40px;
+}
+.pice_content button:hover{
+    border: 1px solid #6c9894;
+    background-color: #fff;
+    color: #6c9894;
+}
+/* pricing content end here  */
+
+/* tainer part start here z */
+.taineer{
+
+background-image: url(../images/bg2.png);
+
+background-attachment: fixed;
+
+background-position: center;
+
+background-repeat: no-repeat;
+
+background-size: cover;
+}
+.taineer_img{
+
+text-align: center;
+
+position: relative;
+}
+.taineer_img img{}
+.shape_tainer{
+
+position: absolute;
+
+top: 48%;
+
+left: 50%;
+
+transform: translate(-49%, -48%);
+}
+.shape_tainer img{
+}
+.taineer p{
+
+text-align: center;
+
+font-size: 25px;
+
+font-family: 'Montserrat', sans-serif;
+
+font-weight: 400;
+
+color: #529b97;
+
+margin-top: 30px;
+
+margin-bottom: 20px;
+}
+.taineer h2{
+    
+text-align: center;
+    
+font-family: 'Baloo Bhai 2', cursive;
+    
+font-weight: 600;
+    
+color: #529b97;
+    
+font-size: 50px;
+}
+/* tariner part end here  */
+
+/* don't miss update section start here  */
+.update {
+
+background: #529b97;
+}
+.update h1{
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0px;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-weight: 600;
+    color: #fff;
+}
+.update p{
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    padding: 0px 45px;
+}
+.update form{
+    text-align: center;
+    position: relative;
+}
+.update form input{
+    height: 40px;
+    width: 78%;
+    border: navajowhite;
+    border-radius: 21px;
+    padding: 11px;
+}
+.update form input::placeholder{
+    text-transform: uppercase;
+    
+}
+.update form input:focus{
+    outline: none;
+}
+.update form button{
+
+height: 40px;
+
+width: 150px;
+
+border: navajowhite;
+
+border-radius: 21px;
+
+position: absolute;
+
+top: 0%;
+
+right: 8%;
+
+transform: translateX(8%);
+
+background: #ddffef;
+
+text-transform: capitalize;
+
+color: #529b97;
+
+font-family: 'Baloo Bhai 2', cursive;
+
+font-weight: 700;
+}
+/* don't miss update section end here  */
+
+/* footer part start here  */
+footer{
+
+}
+.title_part h1{
+
+text-transform: capitalize;
+
+color: #529b97;
+
+font-family: 'Baloo Bhai 2', cursive;
+
+font-weight: 600;
+
+margin: 0px;
+
+margin-bottom: 20px;
+}
+.title_part p{color: #529b97;font-family: 'Montserrat', sans-serif;font-weight: 400;}
+.about {
+
+margin-left: 25px;
+
+height: 100%;
+}
+.about h2{
+
+text-transform: capitalize;
+
+color: #529b97;
+
+font-family: 'Baloo Bhai 2', cursive;
+
+font-weight: 600;
+
+margin: 0px;
+
+margin-bottom: 20px;
+}
+.about ul{
+
+list-style: none;
+
+padding: 0px;
+}
+.about ul li{
+
+}
+.about ul li a{
+
+text-decoration: none;
+
+color: #529b97;
+}
+
+.service {
+
+height: 100%;
+
+margin-left: 25px;
+}
+.service h2{
+
+text-transform: capitalize;
+
+color: #529b97;
+
+font-family: 'Baloo Bhai 2', cursive;
+
+font-weight: 600;
+
+margin: 0px;
+
+margin-bottom: 20px;
+}
+.service ul{
+
+padding: 0px;
+
+list-style: none;
+}
+.service ul li{
+
+}
+.service ul li a{
+
+text-decoration: none;
+
+color: #529b97;
+}
+
+.social{
+
+margin-left: 25px;
+}
+
+.social {
+
+height: 100%;
+}
+.social h2{
+
+text-transform: capitalize;
+
+color: #529b97;
+
+font-family: 'Baloo Bhai 2', cursive;
+
+font-weight: 600;
+
+margin: 0px;
+
+margin-bottom: 20px;
+}
+.social ul{
+
+padding: 0pc;
+
+list-style: none;
+}
+.social ul li{
+
+}
+.social ul li a{
+
+text-decoration: none;
+
+color: #529b97;
+
+text-transform: capitalize;
+}
+.social ul li a i{
+
+background: #529b97;
+
+height: 30px;
+
+width: 30px;
+
+border: 1px solid #529b97;
+
+text-align: center;
+
+border-radius: 50%;
+
+padding-top: 6px;
+
+margin-right: 10px;
+
+margin-bottom: 7px;
+
+color: #fff;
+}
+.social ul li a:hover i{
+    background: #fff;
+    color: #529b97;
+    transition: .4s all ease-in-out;
+}
+/* footer part end here  */
